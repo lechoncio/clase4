@@ -1,9 +1,9 @@
 
 
 import NavBar from "./components/NavBar";
-import ItemListContainer from "./components/ItemListContainer";
-import ItemContainer from "./containers/ItemContainer";
-import {data} from "./utils/data"
+import CounterContainer from "./containers/CounterContainer";
+import ItemListContainer from "./containers/ItemListContainer";
+import ItemDetailContainer from "./containers/ItemDetailContainer";
 import Greeting from "./components/Greeting";
 
 
@@ -11,11 +11,17 @@ const App = () => {
 
   return (
     <>  
-    
     <NavBar />
-    <Greeting />
-    <ItemContainer items={data} />
-    <ItemListContainer />
+    <p class="entrega">Entrega item detail container</p> 
+    <ItemDetailContainer /> 
+    <p class="entrega">FIN Entrega item detail container</p>
+    
+
+    {/*<Greeting /><ItemListContainer /><CounterContainer />
+    
+    
+    */}
+    
     </>
     )
   
@@ -23,4 +29,3 @@ const App = () => {
 
 export default App;
 
-//agregado <ItemContainer />

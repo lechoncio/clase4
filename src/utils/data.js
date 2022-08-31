@@ -7,7 +7,7 @@ export const data = [
         descripcion:"Santa Cruz Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 17999,
         stock: 2,
-        image: "./images/SKATESANTACRUZ1.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947936/skates/SKATESANTACRUZ1_nlvsed.png"
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ export const data = [
         descripcion:"Santa Cruz Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 24999,
         stock: 6,
-        image: "./images/SKATESANTACRUZ2.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947928/skates/SKATESANTACRUZ2_srzh7z.png"
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ export const data = [
         descripcion:"Santa Cruz Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 24999,
         stock: 4,
-        image: "./images/SKATESANTACRUZ3.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947930/skates/SKATESANTACRUZ3_f4ntwz.png"
     },
     {
         id: 4,
@@ -37,7 +37,7 @@ export const data = [
         descripcion:"Santa Cruz Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 17999,
         stock: 9,
-        image: "./images/SKATESANTACRUZ4.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947931/skates/SKATESANTACRUZ4_mpwlwq.png"
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ export const data = [
         descripcion:"Santa Cruz Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 17999,
         stock: 3,
-        image: "./images/SKATESANTACRUZ5.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947927/skates/SKATESANTACRUZ5_qlopaz.png"
     },
     {
         id: 6,
@@ -57,7 +57,7 @@ export const data = [
         descripcion:"Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 24999,
         stock: 15,
-        image: "./images/SKATECREATURE1.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947932/skates/SKATECREATURE1_vuuvwo.png"
     },
     {
         id: 7,
@@ -67,7 +67,7 @@ export const data = [
         descripcion:"Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 17999,
         stock: 7,
-        image: "./images/SKATECREATURE2.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947936/skates/SKATECREATURE2_x2dqos.png"
     },
     {
         id: 8,
@@ -77,7 +77,7 @@ export const data = [
         descripcion:"Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 17999,
         stock: 5,
-        image: "./images/SKATECREATURE3.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947931/skates/SKATECREATURE3_ytazbr.png"
     },
     {
         id: 9,
@@ -87,7 +87,7 @@ export const data = [
         descripcion:"Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 17999,
         stock: 6,
-        image: "./images/SKATECREATURE4.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947935/skates/SKATECREATURE4_v1a8kt.png"
     },
     {
         id: 10,
@@ -97,7 +97,7 @@ export const data = [
         descripcion:"Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 24999,
         stock: 6,
-        image: "./images/SKATECREATURE5.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947930/skates/SKATECREATURE5_z546nz.png"
     },
     {
         id: 11,
@@ -107,7 +107,7 @@ export const data = [
         descripcion:"Santa Cruz Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense",
         precio: 34999,
         stock: 3,
-        image: "./images/COMPLETESANTACRUZ1.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947934/skates/COMPLETESANTACRUZ1_vlrmy4.png"
     },
     {
         id: 12,
@@ -117,7 +117,7 @@ export const data = [
         descripcion:"Santa Cruz Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense",
         precio: 34999,
         stock: 4,
-        image: "./images/COMPLETESANTACRUZ2.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947931/skates/COMPLETESANTACRUZ2_a3p1db.png"
     },
     {
         id: 13,
@@ -127,7 +127,7 @@ export const data = [
         descripcion:"Santa Cruz Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense",
         precio: 34999,
         stock: 3,
-        image: "./images/COMPLETESANTACRUZ3.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947929/skates/COMPLETESANTACRUZ3_v4mhlg.png"
     },
     {
         id: 14,
@@ -137,7 +137,7 @@ export const data = [
         descripcion:"Santa Cruz Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense",
         precio: 34999,
         stock: 5,
-        image: "./images/COMPLETESANTACRUZ4.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947928/skates/COMPLETESANTACRUZ4_dyz8nd.png"
     },
     {
         id: 15,
@@ -147,7 +147,7 @@ export const data = [
         descripcion:"Santa Cruz Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense",
         precio: 34999,
         stock: 8,
-        image: "./images/COMPLETESANTACRUZ5.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947925/skates/COMPLETESANTACRUZ5_vhvqnm.png"
     },
     {
         id: 16,
@@ -157,7 +157,7 @@ export const data = [
         descripcion:"Creature Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense",
         precio: 34999,
         stock: 7,
-        image: "./images/COMPLETECREATURE1.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947937/skates/COMPLETECREATURE1_yr2jxe.png"
     },
     {
         id: 17,
@@ -167,7 +167,7 @@ export const data = [
         descripcion:"Creature Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense",
         precio: 34999,
         stock: 5,
-        image: "./images/COMPLETECREATURE2.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947933/skates/COMPLETECREATURE2_dl2eoa.png"
     },
     {
         id: 18,
@@ -177,7 +177,7 @@ export const data = [
         descripcion:"Creature Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense",
         precio: 34999,
         stock: 6,
-        image: "./images/COMPLETECREATURE3.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947927/skates/COMPLETECREATURE3_a82vdm.png"
     },
     {
         id: 19,
@@ -187,7 +187,7 @@ export const data = [
         descripcion:"Creature Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense",
         precio: 34999,
         stock: 3,
-        image: "./images/COMPLETECREATURE4.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947935/skates/COMPLETECREATURE4_imoxft.png"
     },
     { 
         id: 20,
@@ -197,7 +197,7 @@ export const data = [
         descripcion:"Creature Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense",
         precio: 34999,
         stock: 10,
-        image: "./images/COMPLETECREATURE5.png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947935/skates/COMPLETECREATURE5_adrpqh.png"
     },
     {
         id: 21,
@@ -207,7 +207,7 @@ export const data = [
         descripcion:"Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 17999,
         stock: 9,
-        image: "./images/novedad (1).png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947929/skates/novedad_1_p9jmh3.png"
     },
     {
         id: 22,
@@ -217,7 +217,7 @@ export const data = [
         descripcion:"Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 24999,
         stock: 2,
-        image: "./images/novedad (2).png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947930/skates/novedad_2_d2bezq.png"
     },
     {
         id: 23,
@@ -227,7 +227,7 @@ export const data = [
         descripcion:"Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 24999,
         stock: 8,
-        image: "./images/novedad (3).png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947929/skates/novedad_3_nbra5o.png"
     },
     {
         id: 24,
@@ -237,7 +237,7 @@ export const data = [
         descripcion:"Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 17999,
         stock: 6,
-        image: "./images/novedad (4).png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947935/skates/novedad_4_omfhfw.png"
     },
     {
         id: 25,
@@ -247,7 +247,7 @@ export const data = [
         descripcion:"Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 19000,
         stock: 4,
-        image: "./images/novedad (5).png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947933/skates/novedad_5_t1j0nb.png"
     },
     {
         id: 26,
@@ -257,7 +257,7 @@ export const data = [
         descripcion:"Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 19000,
         stock: 15,
-        image: "./images/novedad (6).png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947936/skates/novedad_6_fmssby.png"
     },
     {
         id: 27,
@@ -267,7 +267,7 @@ export const data = [
         descripcion:"Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 19000,
         stock: 5,
-        image: "./images/novedad (7).png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947926/skates/novedad_7_g5wijs.png"
     },
     {
         id: 28,
@@ -277,7 +277,7 @@ export const data = [
         descripcion:"Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 19000,
         stock: 35,
-        image: "./images/novedad (8).png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947927/skates/novedad_8_h2weiy.png"
     },
     {
         id: 29,
@@ -287,7 +287,7 @@ export const data = [
         descripcion:"Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 19000,
         stock: 25,
-        image: "./images/novedad (9).png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947931/skates/novedad_9_sbq18v.png"
     },
     {
         id: 30,
@@ -297,7 +297,7 @@ export const data = [
         descripcion:"Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 19000,
         stock: 22,
-        image: "./images/novedad (10).png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947933/skates/novedad_10_kbtuz9.png"
     },
     {
         id: 31,
@@ -307,7 +307,7 @@ export const data = [
         descripcion:"Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 19000,
         stock: 13,
-        image: "./images/novedad (11).png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947926/skates/novedad_11_bmudaw.png"
     },
     {
         id: 32,
@@ -317,7 +317,7 @@ export const data = [
         descripcion:"Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 19000,
         stock: 18,
-        image: "./images/novedad (12).png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947926/skates/novedad_12_gcvt3r.png"
     },
     {
         id: 33,
@@ -327,7 +327,7 @@ export const data = [
         descripcion:"Creature Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense",
         precio: 26000,
         stock: 16,
-        image: "./images/novedad (13).png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947932/skates/novedad_13_iclxrq.png"
     },
     {
         id: 34,
@@ -337,7 +337,7 @@ export const data = [
         descripcion:"Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 19000,
         stock: 17,
-        image: "./images/novedad (14).png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947932/skates/novedad_14_qr2wuy.png"
     },
     {
         id: 35,
@@ -347,6 +347,6 @@ export const data = [
         descripcion:"Creature Deck, Fabricada con 7 capas de maple canadiense prensado individualmente para una mayor resistencia de la misma",
         precio: 19000,
         stock: 12,
-        image: "./images/novedad (15).png"
+        image: "https://res.cloudinary.com/lechon/image/upload/v1661947937/skates/novedad_15_dp2lng.png"
     }
   ]

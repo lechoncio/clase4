@@ -1,8 +1,8 @@
 import '../App.css';
-import ItemCount from "./ItemCount";
+import ItemCount from "../components/ItemCount";
 
 
-const ItemListContainer = () => {
+const CounterContainer = () => {
   const onAdd = (qty) => {
     alert("Has seleccionado" + qty + "items")
   }
@@ -15,4 +15,4 @@ const ItemListContainer = () => {
   );
 }
 
-export default ItemListContainer;
+export default CounterContainer;

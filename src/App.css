@@ -6,6 +6,13 @@ body{
   font-family: 'Righteous', cursive;
 }
 
+.entrega{
+  color: rgb(251, 5, 5);
+}
+
+.detail{
+  width: 300px;
+}
 .containerr{
   width: 100%;
   display: flex;
@@ -108,4 +115,49 @@ body{
   color: rgb(79, 5, 5);
   display: flex;
   padding: 5px;
+    }
+
+
+    
+
+    .flex-container {
+      background-color: rgb(115, 111, 106);
+      display: flex;
+      padding: 50px;
+      justify-items: center;
+      
+      max-width: 1100px;
+    }
+    
+    .name {
+      display: flex;
+      font-size: 43px;
+      color: rgb(47, 47, 71);
+      
+    }
+    .desc {
+      display: flex;
+      font-size: 25px;
+      
+      
+    }
+    .flex-item {
+      display: block;
+      width: 1000px;
+      padding: 1rem;
+    }
+    
+    .flex-item img {
+      display: flex;
+      padding-left: 4rem;
+      width: 60%;
+      -webkit-transition: all 1s;
+      transition: all 1s;
+    }
+    
+    .flex-item img:hover {
+      -webkit-filter: brightness(0.7);
+              filter: brightness(0.7);
+      -webkit-transition: all 1s;
+      transition: all 1s;
     }

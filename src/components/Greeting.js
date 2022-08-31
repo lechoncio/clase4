@@ -4,7 +4,7 @@ const Greeting = () => {
     return ( 
 <>
 
-<img class="logoMain" src="../images/logo.png" alt="logo"/>
+<img class="logoMain" src="https://res.cloudinary.com/lechon/image/upload/v1661947925/skates/logo_qt6gzh.png" alt="logo"/>
 
 
 <h1 id="main">Ketel Old School Skateboard Shop</h1>

@@ -13,10 +13,6 @@ body{
 .detail{
   width: 300px;
 }
-.containerr{
-  width: 100%;
-  display: flex;
-}
 
 
 .cart{
@@ -44,25 +40,24 @@ body{
 }
 
 .nav1 {
-  font-family: 'Akshar', sans-serif;
-  font-size: 25px;
-  color: black;
+  font-family: 'Righteous', cursive;
+  font-size: 35px;
+  color: rgb(88, 4, 14);
   
   text-decoration: none;
-  padding: 10px;
+  padding: 30px;
 }
 
 .nav1:hover{
-  color: rgb(207, 13, 13);
+  color: rgb(12, 3, 115);
 }
 
 .nav2 {
-  font-family: 'Akshar', sans-serif;
-  font-size: 25px;
-  color: rgb(87, 32, 32);
-  
+  font-family: 'Righteous', cursive;
+  font-size: 15px;
+  color: rgb(64, 60, 60);
   text-decoration: none;
-  padding: 10px;
+  
 }
 
 .nav2:hover{
@@ -70,7 +65,7 @@ body{
 }
 
 .dropdownn{
-  font-family: 'Akshar', sans-serif;
+  font-family: 'Righteous', cursive;
   font-size: 20px;
   list-style-type: none;
   text-decoration: none;
@@ -89,23 +84,54 @@ body{
   
 }
 
+.nav-item2{
+  padding: 27px 5px 5px 60px;
+  
+  
+}
+/*Inicio Card*/
 
+.containerCards{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .cards{
-  margin: auto;
-  height: 350px;
-  padding-left: 3%;
-  transition: all 0.7s ease-in-out;
-      
+    
+  width: 280px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  float: left ; 
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  background: rgba(255,255,255,0.1);
+  border-radius: 14px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: all 300ms;
+  
 }
 
+.imgCatalog{
+  margin: auto;
+  height: 455px;
+  padding-left: 3rem;
+}
 
-.cards:hover{
-      transform: scale(1.5) ;
+.imgCatalog:hover{
+      transform: scale(1.4) ;
       
     }
 
 .skateName{
   color: rgb(14, 1, 90);
+}
+.agregar{  
+  padding-left: 3rem;
+
 }
 
 .precio{
@@ -117,47 +143,59 @@ body{
   padding: 5px;
     }
 
+/*inicio detail*/
 
-    
+.containerDetail{
+  padding: 0rem 5rem 0rem 5rem;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 
-    .flex-container {
-      background-color: rgb(115, 111, 106);
-      display: flex;
-      padding: 50px;
-      justify-items: center;
-      
-      max-width: 1100px;
-    }
-    
-    .name {
-      display: flex;
-      font-size: 43px;
-      color: rgb(47, 47, 71);
-      
-    }
-    .desc {
-      display: flex;
-      font-size: 25px;
-      
-      
-    }
-    .flex-item {
-      display: block;
-      width: 1000px;
-      padding: 1rem;
-    }
-    
-    .flex-item img {
-      display: flex;
-      padding-left: 4rem;
-      width: 60%;
-      -webkit-transition: all 1s;
-      transition: all 1s;
-    }
-    
-    .flex-item img:hover {
-      -webkit-filter: brightness(0.7);
-              filter: brightness(0.7);
-      -webkit-transition: all 1s;
-      transition: all 1s;
-    }
+}
+.cardDetail{
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  float: left; 
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  background: rgba(255,255,255,0.1);
+  border-radius: 14px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: all 300ms;
+  
+}  
+.flex-item{
+  padding: 3rem;
+  
+}  
+
+.name{
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+  color: rgb(59, 92, 64);
+  text-decoration: none;
+  padding: 5px;
+}
+
+.name2{
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+  color: rgb(2, 43, 14);
+  text-decoration: none;
+  padding: 10px;
+}
+
+.detail{
+  margin: auto;
+  width: 200px;
+
+}
+.detail:hover{
+  transform: scale(1.4) ;
+  
+}

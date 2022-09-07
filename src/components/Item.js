@@ -12,7 +12,7 @@ const Item =({id, brand, nombre, precio, image, stock}) => {
       
       <p class="precio">Precio: {precio}</p> 
     </div>
-    <div><ItemCount stock={stock}/></div>
+    
     </div>
   );
 }

@@ -30,12 +30,12 @@ const ItemCount = ({ stock = 0, initial = 1, onAdd }) => {
                 {" Cant: "}{count}{"  Unid. "}
                 <button class="btn btn-secondary btn-sm" onClick={increment}>+</button>
             <br /><br />
-            {
-                stock
-                ? <button class="btn btn-outline-dark btn-sm" onClick={() => onAdd(count)}>Agregar al Carrito</button>
-                : <button class="btn btn-outline-dark btn-sm" disabled>Agregar al Carrito</button>
-                
-            }
+                {
+                    count
+                    ? <button class="btn btn-outline-dark btn-sm" onClick={() => onAdd(count)}>Agregar al Carrito</button>
+                    : <button class="btn btn-outline-dark btn-sm" disabled>Agregar al Carrito</button>
+                    
+                }
             </div>
 
         </div>

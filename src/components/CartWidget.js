@@ -2,7 +2,7 @@
 const CartWidget = () => {
     return (    
       <>
-      <img class="cart" src="https://res.cloudinary.com/lechon/image/upload/v1661947925/skates/carrito_xctvu7.png" alt="carto4"></img>
+      <img class="cart" src="https://res.cloudinary.com/lechon/image/upload/v1662558348/skates/carrito4_slg2ro.png" alt="carto4"></img>
       </>
     );
   }

@@ -16,10 +16,13 @@ body{
 
 
 .cart{
-  width: 50px;
+  width: 60px;
   padding-right: 10px;
 }
 
+.logoCarro{
+  width: 600px;
+}
 
 .logoMain{
   width: 600px;

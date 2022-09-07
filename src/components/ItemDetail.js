@@ -7,7 +7,7 @@ const ItemDetail = ({ item }) => {
   const [itemCount, setItemCount] = useState(0);
 
     const onAdd = (qty) => {
-      alert("You have selected " + qty + " items.");
+      alert ("You have selected " + qty + " items.");
       setItemCount(qty);
 }
 
@@ -36,7 +36,7 @@ const ItemDetail = ({ item }) => {
                         itemCount === 0
                       
                         ? <ItemCount stock={item.stock} initial={itemCount} onAdd={onAdd} />
-                        : <Link to='/cart'><button class="btn btn-outline-secondary btn-sm">CheckOut</button></Link>
+                        : <Link to='/cart'><button class="btn btn-outline-primary btn-sm">CheckOut</button></Link>
                     }
                     <hr />
                 </div>

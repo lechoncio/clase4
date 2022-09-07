@@ -1,5 +1,6 @@
-# Getting Started with Create React App
+# Primer Entrega de Proyecto Final de Rafael Ketelhohn
 
+Se trata de una tienda de Skates Copados!!
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

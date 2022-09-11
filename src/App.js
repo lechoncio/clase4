@@ -6,6 +6,7 @@ import ItemDetailContainer from "./containers/ItemDetailContainer";
 import Greeting from "./components/Greeting";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Cart from "./components/Cart";
+import CartContextProvider from "./components/CartContext";
 
 
 
@@ -13,6 +14,7 @@ const App = () => {
 
   return (
     <>
+    <CartContextProvider>
     <BrowserRouter> 
     <NavBar />
     <Greeting />
@@ -25,15 +27,9 @@ const App = () => {
     
     </Routes>
     </BrowserRouter>
+    </CartContextProvider>
 
-    {/*
-    <p class="entrega">Entrega item detail container</p> 
-    <ItemDetailContainer /> 
-    <p class="entrega">FIN Entrega item detail container</p>
-    
-    
-    */}
-    
+        
     </>
     )
   

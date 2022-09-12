@@ -15,13 +15,22 @@ const CartContextProvider = ({children}) => {
             setCartList([...cartList, newProduct])
         } else {
             const newProducts = cartList.map(prod => {
-                if(prod.id === item.id) {
+                
+                 
+                 if(prod.id === item.id) {
                     const newProduct = {
                         ...prod,
-                        quantity: quantity
-                    }
-                    return newProduct
-                } else {
+                        quantity: quantity + prod.quantity};
+
+                    if(newProduct.quantity > item.stock) {
+                        newProduct.quantity = item.stock
+                 };
+
+                return newProduct
+                  
+                } 
+            else {
+                    
                     return prod
                 }
             })

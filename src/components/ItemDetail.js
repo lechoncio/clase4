@@ -35,12 +35,15 @@ const ItemDetail = ({ item }) => {
                   <p class="precio">Precio = {item.precio} pesos</p> 
                   <hr />                
                   
-                  {
-                        itemCount === 0
-                      
-                        ? <ItemCount stock={item.stock} initial={itemCount} onAdd={onAdd} />
-                        : <Link to='/cart'><button class="btn btn-outline-primary btn-sm">CheckOut</button></Link>
-                    }
+                  
+                                              
+                        { 
+                          itemCount === 0 && <ItemCount stock={item.stock} initial={itemCount} onAdd={onAdd} /> 
+                        }
+                        { 
+                          itemCount !== 0 && <Link to='/cart'><button class="btn btn-outline-primary btn-sm">CheckOut</button></Link> 
+                        }
+                    
                     <hr />
                 </div>
         </div>

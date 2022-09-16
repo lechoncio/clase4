@@ -6,6 +6,10 @@ export default function ItemList(props) {
 
   let items = props.items;
 
+  if (items.legth === 0) return <div class="spinner-border" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+
   return(
   
   
@@ -13,7 +17,7 @@ export default function ItemList(props) {
       <div>
         
         <div>
-          {items.map((item) => (
+           { items.map((item) => (
             <Item
               key={item.id}
               id={item.id}
@@ -27,7 +31,9 @@ export default function ItemList(props) {
               stock={item.stock}
             />
             
+            
           ))}
+          
         </div>
       </div>
     </div>

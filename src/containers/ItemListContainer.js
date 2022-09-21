@@ -1,30 +1,22 @@
 import { useEffect, useState } from "react";
-import desafio from "../utils/promesa";
-import {data} from "../utils/data.js";
 import { useParams } from "react-router-dom";
 import ItemList from "../components/ItemList";
+import { firestoreFetch } from "../utils/firebaseConfig";
+
 
 
 export default function ItemListContainer(props) {
 
-    const [products, setProducts] = useState([]);
-    const { id } = useParams();
+  const [products, setProducts] = useState([]);
+  const { idCategory } = useParams();
 
+  useEffect(() => {
+    firestoreFetch(idCategory)
+      .then(result => setProducts(result))
+      .catch(err => console.log(err))
+  }, [idCategory])
 
-  
-    useEffect(() => {
-      if (id) {
-      desafio(data.filter(item => item.categoryId == id))
-        .then(result => setProducts(result))
-        .catch(err => console.log(err))
-      } else {
-        desafio(data)
-        .then(result => setProducts(result))
-        .catch(err => console.log(err))
-
-      }
-    })
-  
+    
     return (
       <div>
         <h1>{props.greetings}</h1>

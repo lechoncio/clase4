@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import promesaDetail from "../utils/promesaDetail";
-import {data} from "../utils/data.js";
+
 import ItemDetail from "../components/ItemDetail";
 import { useParams } from "react-router-dom";
+import { firestoreOneFetch } from "../utils/firebaseConfig";
 
 
 const ItemDetailContainer = () => {
@@ -10,9 +10,9 @@ const ItemDetailContainer = () => {
     const { id } = useParams();
 
     useEffect(() => {
-        promesaDetail(1000, data.find(item => item.id == id))
-        .then(result => setDato(result))
-        .catch(err => console.log(err))
+        firestoreOneFetch(id)
+            .then(result => setDato(result))
+            .catch(err => console.log(err))
     }, [id]);
 
     return (

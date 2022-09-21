@@ -16,21 +16,21 @@ const NavBar = () => {
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item">
-                <Link class="nav1" to="category/2">Skates Armados</Link>
+                <Link class="nav1" to="category/completes">Skates Armados</Link>
               </li>
               <li class="nav-item">
-              <Link class="nav1" to="category/1">Decks</Link>
+              <Link class="nav1" to="category/decks">Decks</Link>
               </li>
               <li class="nav-item">
-              <Link class="nav1" to="category/3">Cruisers</Link>
+              <Link class="nav1" to="category/cruisers">Cruisers</Link>
               </li>
               
                            
               <li class="nav-item2">
-                <a class="nav2" href="./armados.html"><b>Login</b></a>
+                <a class="nav2" href="./login.html"><b>Login</b></a>
               </li>
               <li class="nav-item2">
-                <a class="nav2" href="./tablas.html"><b>Registrarse</b></a>
+                <a class="nav2" href="./regist.html"><b>Registrarse</b></a>
               </li>
             </ul>
             

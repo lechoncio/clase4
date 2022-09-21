@@ -212,6 +212,7 @@ export const data = [
         id: 20,
         brand: "Creature",
         nombre: "Large Logo",
+        categoryId: 2,
         category: "Skate Complete",
         descripcion:"Creature Complete, Skateboard pre armado con los mejores productos de la marca, Hecha de 7 capas de maple canadiense",
         precio: 34999,

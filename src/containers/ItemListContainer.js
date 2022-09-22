@@ -8,13 +8,13 @@ import { firestoreFetch } from "../utils/firebaseConfig";
 export default function ItemListContainer(props) {
 
   const [products, setProducts] = useState([]);
-  const { idCategory } = useParams();
+  const { id } = useParams();
 
   useEffect(() => {
-    firestoreFetch(idCategory)
+    firestoreFetch(id)
       .then(result => setProducts(result))
       .catch(err => console.log(err))
-  }, [idCategory])
+  }, [id])
 
     
     return (

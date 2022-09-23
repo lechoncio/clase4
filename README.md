@@ -1,4 +1,4 @@
-# Primer Entrega de Proyecto Final de Rafael Ketelhohn
+# Desafío  Item Collection  22-09-2022
 
 Se trata de una tienda de Skates Copados!!
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

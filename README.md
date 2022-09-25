@@ -1,16 +1,17 @@
 # Desafío  Item Collection  22-09-2022
 
-Se trata de una tienda de Skates Copados!!
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Se trata de una tienda (e-commerce) de Skates de dos marcas reconocidas!!
+Los productos se encuentran agrupados por categorías (skates armados, decks y cruisers o long-boards).
+El proyecto tiene algo de bootstrap [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+En el project directory, puede correr:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Corre la app en modo development.\
+Abre [http://localhost:3000](http://localhost:3000) para ver en browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.

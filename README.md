@@ -12,7 +12,7 @@ Los productos se encuentran agrupados por categorías (skates armados, decks y c
 
 Usted también puede ver el video en youtube aquí:
 
-https://youtu.be/c2WlVemM6kY
+https://youtu.be/GUvB7ZzOEgM
 
 ## Construido con:
 

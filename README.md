@@ -4,7 +4,7 @@ Se trata de una tienda (e-commerce) de Skates de dos marcas reconocidas!!
 Los productos se encuentran agrupados por categorías (skates armados, decks y cruisers o long-boards).
 El proyecto tiene algo de bootstrap [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Scripts Disponibles
 
 En el project directory, puede correr:
 
@@ -40,6 +40,12 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Video del sitio y funcionalidades
+
+Usted también puede ver el video en youtube aquí:
+
+https://youtu.be/c2WlVemM6kY
 
 ## Learn More
 

@@ -22,6 +22,8 @@ React Router Dom
 
 Bootstrap
 
+SweetAlert 2
+
 
 ## Developer: Ketelhohn, Rafael
 Se agradece a CoderHouse por el soporte para crecer como developer.

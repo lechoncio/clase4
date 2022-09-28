@@ -16,7 +16,7 @@ const NavBar = () => {
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item">
-                <Link class="nav1" to="category/completes">Skates Armados</Link>
+                <Link class="nav1" to="category/completes">Armados</Link>
               </li>
               <li class="nav-item">
               <Link class="nav1" to="category/decks">Decks</Link>
@@ -25,13 +25,13 @@ const NavBar = () => {
               <Link class="nav1" to="category/cruisers">Cruisers</Link>
               </li>
               
-                           
+              <div>            
               <li class="nav-item2">
                 <a class="nav2" href="./login.html"><b>Login</b></a>
               </li>
               <li class="nav-item2">
                 <a class="nav2" href="./regist.html"><b>Registrarse</b></a>
-              </li>
+              </li></div> 
             </ul>
             
           </div>

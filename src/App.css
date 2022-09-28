@@ -1,3 +1,5 @@
+
+
 body{
   width: 100%;
   padding: 30px;
@@ -6,9 +8,6 @@ body{
   font-family: 'Righteous', cursive;
 }
 
-.entrega{
-  color: rgb(251, 5, 5);
-}
 
 .detail{
   width: 300px;
@@ -31,6 +30,7 @@ body{
 
 .logoMain{
   width: 600px;
+
 }
 
 .logo{
@@ -51,7 +51,7 @@ body{
   font-family: 'Righteous', cursive;
   font-size: 35px;
   color: rgb(88, 4, 14);
-  
+  display: flex;
   text-decoration: none;
   padding: 30px;
 }
@@ -101,7 +101,7 @@ body{
 
 .containerCards{
   width: 100%;
-  display: flex;
+  
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -125,6 +125,7 @@ body{
 
 .imgCatalog{
   margin: auto;
+  display: flex;
   height: 455px;
   padding-left: 3rem;
 }
@@ -249,4 +250,9 @@ body{
 .detail:hover{
   transform: scale(1.4) ;
   
+}
+
+.badge{
+  font-size: 20px;
+  display: flex;
 }

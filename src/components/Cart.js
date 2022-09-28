@@ -3,6 +3,8 @@ import { serverTimestamp, doc, collection, setDoc, increment, updateDoc } from "
 import { useContext } from "react";
 import { CartContext } from "./CartContext";
 import { db } from "../utils/firebaseConfig";
+import Swal from 'sweetalert2'
+
 
 
 
@@ -37,7 +39,21 @@ const Cart = () => {
 
         createOrderInFirestore()
             .then(result => {
-                alert("Champion, Your order has been created!" + result.id)
+
+                
+                Swal.fire({   
+                    width: "500px",    
+                    heightAuto: true,
+                    title: ("CHAMPION, su orden ha sido creada!, Muchas Gracias!!, Su N° de Orden es: " + result.id ), 
+                    imageUrl: 'https://res.cloudinary.com/lechon/image/upload/v1661947925/skates/logo2_u5y6oq.jpg',
+                    imageWidth: 450,
+                    imageHeight: 250,
+                    padding: '1%',
+                    color: '#ded7e6',
+                    background: '#48464b',
+                    showConfirmButton: true,
+                       
+                })   
                 test.cartList.forEach(async(item) => {
                 const itemRef = doc(db, "products", item.id);
                 await updateDoc(itemRef, {
